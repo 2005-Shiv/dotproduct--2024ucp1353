@@ -1,7 +1,7 @@
 from multiprocessing import Pool
 
 def dot(a, b):
-    # simple parallel worker using Pool with a top-level function
+    # dhang se comment bhi likhna nhi aata
     def mul(xy):
         x, y = xy
         return x * y
@@ -15,4 +15,4 @@ if __name__ == "__main__":
     if len(a) != len(b):
         print("Error: vectors must be of same length")
     else:
-        print("Dot product:", dot(a, b))
+        print("Dot product : ", dot(a, b))
